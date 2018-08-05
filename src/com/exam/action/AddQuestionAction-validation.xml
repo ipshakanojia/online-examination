@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE validators PUBLIC 
+  		"-//Apache Struts//XWork Validator 1.0.2//EN"
+  		"http://struts.apache.org/dtds/xwork-validator-1.0.2.dtd">
+
+<validators>
+
+	<field name="question">
+		<field-validator type="requiredstring">
+			<message>Question can't be blank.</message>
+		</field-validator>
+	</field>
+
+	<field name="answer1">
+		<field-validator type="requiredstring">
+			<message>Answer A can't be blank.</message>
+		</field-validator>
+	</field>
+
+	<field name="answer2">
+		<field-validator type="requiredstring">
+			<message>Answer B can't be blank.</message>
+		</field-validator>
+	</field>
+
+	<field name="answer3">
+		<field-validator type="requiredstring">
+			<message>Answer C can't be blank.</message>
+		</field-validator>
+	</field>
+
+	<field name="answer4">
+		<field-validator type="requiredstring">
+			<message>Answer D can't be blank.</message>
+		</field-validator>
+	</field>
+
+	<field name="canswer">
+		<field-validator type="requiredstring">
+			<message>CAnswer can't be blank.</message>
+		</field-validator>
+	</field>
+
+</validators>  

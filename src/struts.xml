@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+	"http://struts.apache.org/dtds/struts-2.5.dtd">
+
+<struts>
+	<package name="default" extends="struts-default">
+
+		<action name="login" class="com.exam.action.LoginAction">
+			<result name="success">welcome.jsp</result>
+			<result name="input">index.jsp</result>
+		</action>
+		<action name="register" class="com.exam.action.RegistrationAction">
+			<result name="input">registration.jsp</result>
+			<result name="success">abc.jsp</result>
+		</action>
+
+		<action name="quiz" class="com.exam.action.QuizAction">
+			<result name="success">success.jsp</result>
+			<result name="error">error.jsp</result>
+		</action>
+		<action name="next" class="com.exam.action.QuizAction" method="getNextQuestion">
+			<result name="success">success.jsp</result>
+			<result name="error">error.jsp</result>
+		</action>
+		<action name="previous" class="com.exam.action.QuizAction" method="getPreviousQuestion">
+			<result name="success">success.jsp</result>
+			<result name="error">error.jsp</result>
+		</action>
+
+		<action name="subject" class="com.exam.action.SubjectAction">
+			<result name="success">subject.jsp</result>
+			<result name="error">error.jsp</result>
+		</action>
+		
+		<action name="addquestion" class="com.exam.action.AddQuestionAction">
+			<result name="success">queadded.jsp</result>
+			<result name="error">addquestion.jsp</result>
+		</action>
+		<action name="submitExam" class="com.exam.action.QuizAction" method="getMarks" >
+			<result name="success">marks.jsp</result>
+			<result name="error">error.jsp</result>
+		</action>		
+		
+	</package>
+</struts> 
+	
+	
