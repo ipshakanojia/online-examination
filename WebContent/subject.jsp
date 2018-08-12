@@ -8,7 +8,7 @@
 <title>Insert title here</title>
 <link rel="stylesheet" type="text/css" href="css/log-reg-sub.css">
 </head>
-<body>
+<body background="https://eidupont.scene7.com/is/image/eidupont/DBI_Corian_Color%20Chip_Whipped%20Cream-690x345">
 	<div class="instructions">
 		<table>
 			<tbody>
@@ -26,11 +26,11 @@
 				</tr>
 				<tr class="even">
 					<th>Pass rate</th>
-					<td>75 %</td>
+					<td>70 %</td>
 				</tr>
 				<tr class="odd">
-					<th>Time limit</th>
-					<td>0:30:00</td>
+					<th>Total questions</th>
+					<td>10</td>
 				</tr>
 				<tr class="even">
 					<th>Backwards navigation</th>

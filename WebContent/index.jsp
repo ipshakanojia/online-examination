@@ -8,6 +8,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
 <link rel="stylesheet" type="text/css" href="css/log-reg-sub.css">
+<link rel="stylesheet" type="text/css" href="css/login1.css">
 <style type="text/css">
 
 .errorMessage {
@@ -24,9 +25,10 @@
 		<s:submit value="Login" class="login"/>
 		
 	
-	
-	<a style="text-decoration:none" href="registration.jsp" class="login set">Sign up</a></br></br>
-		<a style="text-decoration:none" href="addquestion.jsp" class="login set">Add New Question</a>
+	<s:form>
+	    <a style="text-decoration:none" href="registration.jsp" class="queadd1">Sign up</a></br></br>
+		<a style="text-decoration:none" href="addquestion.jsp" class="queadd1">Add New Question</a>
+		</s:form>
 		</s:form>
 </body>
 </html>

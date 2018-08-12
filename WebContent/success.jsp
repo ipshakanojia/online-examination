@@ -8,6 +8,12 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
 <link rel="stylesheet" type="text/css" href="css/log-reg-sub.css">
+<link rel="stylesheet" type="text/css" href="css/tdd.css">
+<style>
+body
+{
+margin-top: 60px;}
+</style>
 
 <script type="text/javascript" >
 	function saveExam() {
@@ -41,11 +47,11 @@
 </script>
 
 </head>
-<body onload="checkPreviousSelectionOption();">
+<body background="https://eidupont.scene7.com/is/image/eidupont/DBI_Corian_Color%20Chip_Whipped%20Cream-690x345"; onload="checkPreviousSelectionOption();">
 	<s:form id="exampaper" method="post">
 		<s:iterator value="singleQuestion" status="status">
 			<s:hidden value="%{question}" name="hquestion" />
-			<s:property value="question" />
+			<center><b><s:property value="question" /></b></center>
 			<s:radio name="answer1" list="answer1" />
 			<br/>
 			<s:radio name="answer1" list="answer2" />
@@ -55,9 +61,9 @@
 			<s:radio name="answer1" list="answer4" />
 			<br/>
 		</s:iterator>
-		<s:submit value="Next" onclick="setActionNext();" style="visibility:%{nextButtonVisibility}"/>
-		<s:submit value="Previous"  onclick="setActionPrevious();" style="visibility:%{previousButtonVisibility}" />
-		<s:submit value="SubmitExam" onclick="saveExam();"/>
+		<s:submit value="Next" class="login" onclick="setActionNext();" style="visibility:%{nextButtonVisibility}"/>
+		<s:submit value="Previous" class="login" onclick="setActionPrevious();" style="visibility:%{previousButtonVisibility}" />
+		<s:submit value="SubmitExam" class="login" onclick="saveExam();"/>
 		<div id = "me" > <s:property value="%{previousSelectionOption}" /></div>
  	</s:form>
 </body>

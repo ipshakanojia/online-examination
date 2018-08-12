@@ -1,0 +1,29 @@
+.queadd1{
+	position: relative;
+                  left: 20%;
+    border: none;
+    display: inline-block;
+                margin-bottom: -34px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    vertical-align: middle;
+                   width: 176px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    min-width: 88px;
+    padding: 10px 50px;
+    border-radius: 44px;
+    background: -webkit-linear-gradient(bottom, #7579ff, #b224ef);
+    color: yellow;
+	
+}
+
+.queadd1:hover {
+    color: #fff;}
+
+.queadd1 {
+    font-family: monospace;}

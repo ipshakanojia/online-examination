@@ -6,9 +6,11 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="css/queadd.css">
 </head>
-<body>
-<h1>Question added successfully.</h1>
-
+<body background="https://eidupont.scene7.com/is/image/eidupont/DBI_Corian_Color%20Chip_Whipped%20Cream-690x345">>
+<h1 style="margin-top: 151px;text-align: center;color: purple;">Question added successfully.</h1>
+<a style="text-decoration:none" href="addquestion.jsp" class="queadd">Add Another Question</a></br></br>
+<a style="text-decoration:none" href="index.jsp" class="queadd">Log In</a></br></br>
 </body>
 </html>

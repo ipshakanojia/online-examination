@@ -9,6 +9,6 @@
 </head>
 <body>
 
- <s:property value="result" />
+<s:property value="result" />
 </body>
 </html>

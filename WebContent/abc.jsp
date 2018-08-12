@@ -5,9 +5,17 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="css/queadd.css">
+<style>
+body
+{
+margin-top: 151px;}
+</style> 
 </head>
-<body>
-Registration done Successfully
-<a href="login">Click here to Login</a>
+<body background="https://eidupont.scene7.com/is/image/eidupont/DBI_Corian_Color%20Chip_Whipped%20Cream-690x345">
+<font color="purple"><font size="6"><center><b>Registration done Successfully</b></center></font></font></br>
+<a style="text-decoration:none" href="index.jsp" class="clickhere">Login In</a>
 </body>
 </html>
+
+

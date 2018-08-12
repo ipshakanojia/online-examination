@@ -2,9 +2,13 @@ package com.exam.action;
 
 import com.exam.dao.AddQuestionDAO;
 import com.exam.dto.AddQuestionDTO;
+import com.opensymphony.xwork2.ActionSupport;
 import com.opensymphony.xwork2.ModelDriven;
 
 public class AddQuestionAction implements ModelDriven<AddQuestionDTO> {
+	
+	
+	
 	AddQuestionDAO addQuestionDAO = new AddQuestionDAO();
 	AddQuestionDTO addQuestionDTO = new AddQuestionDTO();
 
@@ -17,6 +21,7 @@ public class AddQuestionAction implements ModelDriven<AddQuestionDTO> {
 		}
 	}
 
+	
 	@Override
 	public AddQuestionDTO getModel() {
 		// TODO Auto-generated method stub

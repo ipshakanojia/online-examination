@@ -1,0 +1,17 @@
+.label{
+	font-weight: bold;
+	font-variant: small-caps;
+	
+}
+
+.input101{font-family: Poppins-Regular;
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.2;
+    width: 72%;
+    height: 40px;
+    border-bottom: 2px solid rgba(255,255,255,0.24);
+    background: transparent;
+    padding: 0 5px 0 38px;
+	
+}

@@ -7,6 +7,7 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="css/log-reg-sub.css">
+<link rel="stylesheet" type="text/css" href="css/reg1.css">
 <sj:head jquerytheme="start" jqueryui="true"/>
 <style type="text/css">
 .errorMessage {
@@ -19,15 +20,17 @@
 	
 	<form action="register" class="regForm" method="post">
 	<h1>Registration Form</h1>
-	<s:textfield name="name" class="input100" label="Name"/>
-	<s:textfield name="surname" class="input100" label="Surname"/>
-	<s:password name="password" class="input100" label="Password"/>
-	<p>Dob:</p>
-	<sj:datepicker name="dob" class="input100" changeYear="true" displayFormat="ddmmyy" maxDate="+0d"/>
-	<s:textfield name="address" class="input100" label="Address"/>
-	<s:textfield name="phone" class="input100" label="Phone"/>
-	<s:textfield name="email" class="input100" label="Email"/>
-	<s:textfield name="zip" class="input100" label="Zip"/>
+	<s:textfield name="name" class="input101" label="Name"/></br>
+	<s:textfield name="surname" class="input101" label="Surname"/></br>
+	<s:password name="password" class="input101" label="Password"/></br>
+	
+	<h5><b>DOB:</b></h5>
+	<sj:datepicker name="dob" class="input101" changeYear="true" displayFormat="ddmmyy" maxDate="+0d"/></br>
+	
+	<s:textfield name="address" class="input101" label="Address"/></br>
+	<s:textfield name="phone" class="input101" label="Phone"/></br>
+	<s:textfield name="email" class="input101" label="Email"/></br>
+	<s:textfield name="zip" class="input101" label="Zip"/>
 	<s:submit value="Register" name="register" class="register"/>
 	</form>
 </body>

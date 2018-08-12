@@ -1,0 +1,58 @@
+.queadd{
+	position: relative;
+    left: 36%;               
+    border: none;
+    display: inline-block;
+    margin-bottom: 0;       
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    vertical-align: middle;
+    width: 262px;                
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    min-width: 88px;
+    padding: 10px 50px;
+    border-radius: 44px;
+    background: -webkit-linear-gradient(bottom, #7579ff, #b224ef);
+    color: yellow;
+}
+
+.queadd:hover {
+    color: #fff;}
+
+.queadd {
+    font-family: monospace;}
+    
+.clickhere {
+    position: relative;
+    left: 40%;
+    border: none;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    vertical-align: middle;
+    width: 176px;
+    margin-top: 50px;
+    cursor: pointer;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    min-width: 88px;
+    padding: 10px 50px;
+    border-radius: 44px;
+    background: -webkit-linear-gradient(bottom, #7579ff, #b224ef);
+    color: yellow;
+}
+
+
+.clickhere {
+    font-family: monospace;
+}
+
+.clickhere:hover {
+    color: #fff;}
